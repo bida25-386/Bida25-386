@@ -11,6 +11,40 @@
 <link rel="stylesheet" href="styles.css">
 </head> 
 <body> 
+    <main>
+
+  <section class="feedback">
+
+    <h1>Gym Feedback</h1>
+    <p>We value your feedback. Let us know how we can improve your gym experience.</p>
+
+    <form>
+
+      <label for="name">Full Name</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <label for="rating">Rating</label><br>
+      <select id="rating" name="rating" required>
+        <option value="">Select rating</option>
+        <option value="excellent">Excellent</option>
+        <option value="good">Good</option>
+        <option value="average">Average</option>
+        <option value="poor">Poor</option>
+      </select><br><br>
+
+      <label for="message">Your Feedback</label><br>
+      <textarea id="message" name="message" rows="6" placeholder="Write your feedback here..." required></textarea><br><br>
+
+      <button type="submit">Submit Feedback</button>
+
+    </form>
+
+  </section>
+
+</main>
 
     <header> 
         <img src ="gym logo.png" alt ="a logo of the company" width ="100px"heigt="100px"
